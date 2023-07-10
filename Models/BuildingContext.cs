@@ -8,6 +8,6 @@ namespace BuildingInfoAPI.Models
 		{
 		}
 
-		DbSet<BuildingInfo> BuildingInfos { get; set; } = null!;
+		public DbSet<BuildingInfo> BuildingInfo { get; set; } = null!;
 	}
 }
